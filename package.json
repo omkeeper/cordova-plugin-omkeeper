@@ -1,0 +1,32 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-omkeeper",
+        "scope": null,
+        "escapedName": "cordova-plugin-omkeeper",
+        "name": "cordova-plugin-omkeeper",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      }
+    ]
+  ],
+  "name": "cordova-plugin-omkeeper",
+  "version": "1.0.2",
+  "description": "Keep and/or Release Files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omkeeper/omkeeper.git"
+  },
+  "scripts": {
+    "prepare": "omkeeper clean"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "omkeeper",
+  "license": "Apache version 2.0"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="cordova-plugin-omkeeper"
+  version="1.0.2">
+
+    <name>OmKeeper</name>
+    <description>Plugin Description</description>
+    <author>omkeeper</author>
+    <license>Apache 2.0 License</license>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+		    <feature name="OmSubFiles">
+			    <param name="ios-package" value="OmSubFiles"/>
+			    <param name="onload" value="true"/>
+		    </feature>
+        </config-file>
+
+        <header-file src="src/ios/OmSubFiles.h" />
+        <source-file src="src/ios/OmSubFiles.m" />
+        <header-file src="src/ios/OMFileProtocols.h" />
+        <source-file src="src/ios/OMFileProtocols.m" />
+    </platform>
+
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="OmSubjects">
+                <param name="android-package" value="com.omkeeper.cordova.OmSubjects" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+		
+        <source-file src="src/android/com/omkeeper/cordova/OmSubjects.java" target-dir="src/com/omkeeper/cordova" />
+    </platform>
+
+    <testfiles>
+        <include>
+            <file regex="\.(htm|html|js|css)$" />
+        </include>
+        <exclude>
+        </exclude>
+    </testfiles>
+
+    <hook type="after_prepare" src="hooks/after_prepare.js" />
+
+</plugin>
