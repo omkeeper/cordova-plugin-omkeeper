@@ -1,70 +1,16 @@
-{
-  "_args": [
-    [
-      {
-        "raw": "cordova-plugin-omkeeper",
-        "scope": null,
-        "escapedName": "cordova-plugin-omkeeper",
-        "name": "cordova-plugin-omkeeper",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/Users/mymacbookpro/NeumiaApp/node_modules"
-    ]
-  ],
-  "_from": "cordova-plugin-omkeeper",
-  "_id": "cordova-plugin-omkeeper",
-  "_inCache": true,
-  "_location": "/cordova-plugin-omkeeper",
-  "_nodeVersion": "5.7.0",
-  "_npmVersion": "3.10.7",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "cordova-plugin-omkeeper",
-    "scope": null,
-    "escapedName": "cordova-plugin-omkeeper",
-    "name": "cordova-plugin-omkeeper",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_shrinkwrap": null,
-  "_spec": "cordova-plugin-omkeeper",
-  "_where": "/Users/mymacbookpro/NeumiaApp/node_modules",
-  "author": {
-    "name": "omkeeper"
-  },
-  "bugs": {
-    "url": "https://github.com/omkeeper/cordova-plugin-omkeeper"
-  },
-  "dependencies": {},
-  "description": "Keep and Release Files",
-  "devDependencies": {},
-  "directories": {},
-  "homepage": "https://github.com/omkeeper/cordova-plugin-omkeeper#readme",
-  "keywords": [
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
-  ],
-  "license": "Apache version 2.0",
-  "maintainers": [
     {
-      "name": "omkeeper"
+      "name": "cordova-plugin-omkeeper",
+      "version": "1.0.2",
+      "description": "Keep and release files.",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/omkeeper/cordova-plugin-omkeeper.git"
+      },
+      "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios"
+      ],
+      "author": "omkeeper",
+      "license": "Apache version 2.0"
     }
-  ],
-  "name": "cordova-plugin-omkeeper",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/omkeeper/cordova-plugin-omkeeper.git"
-  },
-  "scripts": {},
-  "version": "1.0.2"
-}
